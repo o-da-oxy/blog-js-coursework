@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <script src="blog.js"></script>    
+    <title>Блог</title>
+</head>
+<body>
+    <header>Блог</header>
+    <div class="body">
+        <main>
+            <h1 class="external_header">Записи</h1>
+            <article>
+                
+            </article>
+        </main>
+        <aside>
+            <h1 class="external_header">Создать запись</h1>
+            <form>
+                <div class="form">
+                    <label for="author">Автор</label>
+                    <input type="text" id="author" name="author">
+                </div>
+                <div class="form">
+                    <label for="header">Заголовок</label>
+                    <input type="text" id="header" name="header">
+                </div>
+                <div class="form">
+                    <label for="category">Категория</label>
+                    <input type="text" id="category" name="category">
+                </div>
+                <div class="form_content">
+                    <label for="content">Содержание</label>
+                    <textarea rows="12" cols="35" id="content" name="content"></textarea>
+                </div>
+                <input type="button" class="create" onclick="create()" value="Создать">
+            </form>
+            <div id="archive">
+                <h1 class="external_header">Архив</h1>
+                <ol></ol>
+            </div>
+        </aside>
+    </div>
+    <footer>Курсовая работа по JS.</footer>
+</body>
+</html>

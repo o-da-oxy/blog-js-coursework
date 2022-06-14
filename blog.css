@@ -1,0 +1,109 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #006b09;
+    border-bottom: 5px solid #07b148;
+    padding: 12px 0px 5px 12px;
+    margin: -8px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.external_header{
+    font-size: 25px;
+    border-bottom: 3px solid #07b148;
+    display: flex;
+    margin: 0 0 10px 0;
+}
+main, aside{
+    border: 0.1rem dashed #006b09;
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main{
+    flex-basis: 75%;
+    margin-right: 20px;
+}
+aside{
+    flex-basis: 25%;
+}
+input{
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #40493B;
+    margin-bottom: 5px;
+}
+input[type="button"]{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 6px 15px 6px 15px;  
+}
+input[type="button"].create{
+    color: white;
+    background-color: #006b09;
+    margin-top: 20px;
+}
+input[type="button"].create:focus{
+    background-color: #07b148;
+}
+label{
+    padding: 2px;
+    font-size: 18px;
+}
+input:focus{    
+    border-bottom: 2px solid;
+}
+textarea{
+    border: 2px solid #40493B;
+}
+footer{
+    margin: 30px -8px 0 -8px;
+    padding: 15px;
+    border-top: 3px solid #40493B;
+}
+input[type="button"]#store{   
+    float: right; 
+    border: none;
+    background-color: #A3AE9E;
+    margin-left: 15px;
+}
+input[type="button"]#delete{
+    float: right;
+    border: none;
+    background-color: #cf3a15;    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: -8px;
+    margin-bottom: 5px;  
+}
+p{
+    margin-top: -8px;
+    margin-bottom: 12px;
+    line-height:1.1;
+}
+ol {
+    list-style-type: square;
+}
